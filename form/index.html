@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="description" content="Form page to request more information">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Halant&family=Karla&family=Nunito+Sans&family=Spectral&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/styles.css">
+
+</head>
+
+<body class="form-body">
+    <header>
+        <div class="menu-icon">
+            <svg viewbox="0 0 60 60">
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+            </svg>
+        </div>
+        <nav>
+            <ul>
+                <li class="menulist"><a href="../">Home</a></li>
+                <li class="menulist"><a href="../about/">About</a></li>
+                <li class="menulist"><a href="">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="title">Form</h1>
+
+        <section>
+            <img class="svg" src="../images/llama.svg" alt="A simple outline drawing of a llama">
+            <!-- <h2>Want more information?</h2>
+
+            <form>
+                <label for="name">Full name:</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email address:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="phone">Phone number:</label>
+                <input type="tel" name="phone" id="phone">
+
+                <label for="month">Today's Date:</label>
+                <input type="month" name="month" id="month">
+                <fieldset>
+                    <legend>Which of the following topics would you like to learn more about? (Check all that apply)
+                    </legend>
+                    <input type="checkbox" id="wombat" name="ingredients" value="wombat">
+                    <label for="wombat">Cities to visit</label>
+
+                    <input type="checkbox" id="kiwi-feet" name="ingredients" value="kiwi-feet">
+                    <label for="kiwi-feet">Culture</label>
+
+                    <input type="checkbox" id="eucalyptus" name="ingredients" value="eucalyptus">
+                    <label for="eucalyptus">Language</label>
+
+                    <input type="checkbox" id="emu" name="ingredients" value="emu">
+                    <label for="emu">Food</label>
+
+                    <input type="checkbox" id="kanga" name="ingredients" value="kanga-claw">
+                    <label for="kanga">Wildlife</label>
+
+                    <input type="checkbox" id="platy" name="ingredients" value="platypus-liver">
+                    <label for="platy">Nature</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What would you like to see us improve about our website?</legend>
+
+                    <input type="radio" name="taste" id="asphalt" value="asphalt">
+                    <label for="asphalt">More pictures!</label>
+
+                    <input type="radio" name="taste" id="tar" value="tar">
+                    <label for="tar">More Spanish lessons</label>
+
+                    <input type="radio" name="taste" id="salt" value="salty">
+                    <label for="salt">Info on popular destinations in neighboring countries</label>
+
+                    <input type="radio" name="taste" id="delicious" value="delicious">
+                    <label for="delicious">Other(below)</label>
+                </fieldset>
+                <label for="haiku">Other:</label>
+                <textarea name="haiku" id="haiku" rows="10" placeholder="I like/don't like..."></textarea>
+                <button type="submit">Submit Now</button>
+
+            </form> -->
+        </section>
+        <div class="loader">
+            <span class="let1">l</span>
+            <span class="let2">o</span>
+            <span class="let3">a</span>
+            <span class="let4">d</span>
+            <span class="let5">i</span>
+            <span class="let6">n</span>
+            <span class="let7">g</span>
+        </div>
+
+
+
+    </main>
+</body>
+<script>
+    document.querySelector(".menu-icon").addEventListener("click", function () {
+        this.parentElement.classList.toggle("close");
+    });
+</script>
+
+</html>
